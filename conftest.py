@@ -3,13 +3,11 @@ import json
 
 import parso
 import pytest
-import time
 
 from collections import OrderedDict
 from types import GeneratorType as generator
 from itertools import chain
 from pathlib import Path
-from ssg import hooks
 
 from objectpath import Tree
 from mongoquery import Query
